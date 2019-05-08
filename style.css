@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+body {
+  background-color: ##F7F7F7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: #393e46;
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px;
+  font-weight: lighter;
+}
+
+.banner {
+  background-color: #FFF4ED;
+  color: #B8B8B8;
+
+}
+.card-text {
+  background: white;
+  padding: 30px;
+  margin: 50px 100px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.3;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+  text-align: center;
+
+}
+
+.footer-links a:hover {
+  opacity: 0.6;
+}
+
+.card {
+  height: 100%;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  color: white;
+  position: relative;
+}
+
+.trip-card{
+  margin: 20px 0;
+  width: 25vw;
+  height: 25vw;
+ }
+
+
+ .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+ }
+#amsterdam {
+  background-image: linear-gradient(rgba(0,0,0,0.3),
+  rgba(0,0,0,0.2)),
+  url('images/amsterdam.jpg');
+}
+
+#shanghai {
+  background-image: linear-gradient(rgba(0,0,0,0.3),
+  rgba(0,0,0,0.2)),
+  url('images/shanghai.jpg');
+}
+
+#budapest {
+  background-image: linear-gradient(rgba(0,0,0,0.3),
+  rgba(0,0,0,0.2)),
+  url('images/budapest.jpg');
+}
+
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
